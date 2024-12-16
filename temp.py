@@ -28,9 +28,10 @@ for sample in train_ds:
         "system": system_prompt,
     })
 
-with open("nlgraph-train.json", "w") as f:
+with open("data/nlgraph-train.json", "w") as f:
     json.dump(samples, f, indent=4)
 
+samples = []
 
 for sample in test_ds:
     samples.append({
@@ -47,5 +48,5 @@ for sample in test_ds:
          "system": system_prompt,
     })
 
-with open("nlgraph-test.json", "w") as f:
+with open("data/nlgraph-test.json", "w") as f:
     json.dump(samples, f, indent=4)
