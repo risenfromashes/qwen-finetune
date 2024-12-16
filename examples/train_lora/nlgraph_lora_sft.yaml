@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: /home/mila/i/islamria/scratch/umong/Qwen2.5-32B
+model_name_or_path: Qwen/Qwen2.5-32B-Instruct
 
 ### method
 stage: sft
@@ -15,7 +15,7 @@ cutoff_len: 4096
 overwrite_cache: true
 
 ### output
-output_dir: /home/mila/i/islamria/scratch/umong/qwen2.5-32b-nlgraph/lora/sft
+output_dir: qwen2.5-32b-nlgraph/lora/sft
 logging_steps: 10
 save_steps: 50
 plot_loss: true
