@@ -1,0 +1,13 @@
+### Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+### model
+model_name_or_path: /home/mila/i/islamria/scratch/umong/Qwen2.5-32B-Instruct
+adapter_name_or_path: /home/mila/i/islamria/scratch/umong/qwen2.5-32b/lora/tir
+template: qwen
+finetuning_type: lora
+
+### export
+export_dir: /home/mila/i/islamria/scratch/umong/BdMO-AI-32B-TIR
+export_size: 4
+export_device: auto
+export_legacy_format: false
