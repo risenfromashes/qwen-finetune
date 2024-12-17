@@ -1,2 +1,5 @@
 data/nlgraph-test.json
 data/nlgraph-train.json
+qwen2.5-32b-nlgraph/
+offload/
+**/__pycache__
