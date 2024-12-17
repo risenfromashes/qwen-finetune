@@ -8,5 +8,5 @@ finetuning_type: lora
 ### export
 export_dir: qwen2.5-32b-nlgraph/merged/sft
 export_size: 4
-export_device: cpu
+export_device: gpu
 export_legacy_format: false

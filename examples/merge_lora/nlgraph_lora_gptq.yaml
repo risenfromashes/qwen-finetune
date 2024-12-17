@@ -7,5 +7,5 @@ export_dir: qwen2.5-32b-nlgraph/gptq/sft
 export_quantization_bit: 4
 # export_quantization_dataset: data/c4_demo.json
 export_size: 4
-export_device: cpu
+export_device: gpu
 export_legacy_format: false
